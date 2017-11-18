@@ -1,0 +1,269 @@
+"Vault"
+{
+	"Police Private"
+	{
+		"model"	"models/humans/private/male_06.mdl"
+		"suit"	"10"
+		"health"	"110"
+	}
+	"Police Corporal"
+	{
+		"model"	"models/humans/corporal/male_06.mdl"
+		"suit"	"20"
+		"health"	"120"
+		"0"	"weapon_pistol"
+		"1"	"weapon_smg1"
+	}
+	"Police Sergeant"
+	{
+		"model"	"models/humans/sergeant/male_06.mdl"
+		"suit"	"40"
+		"health"	"130"
+		"0"	"weapon_pistol"
+		"1"	"weapon_smg1"
+	}
+	"Police Lieutenant"
+	{
+		"model"	"models/humans/lieutenant/male_06.mdl"
+		"suit"	"60"
+		"health"	"140"
+		"0"	"weapon_pistol"
+		"1"	"weapon_smg1"
+		"2"	"weapon_shotgun"
+	}
+	"Police Captain"
+	{
+		"model"	"models/humans/captain/male_06.mdl"
+		"suit"	"80"
+		"health"	"150"
+		"0"	"weapon_pistol"
+		"1"	"weapon_smg1"
+		"2"	"weapon_shotgun"
+	}
+	"Police Major"
+	{
+		"model"	"models/humans/major/male_06.mdl"
+		"suit"	"100"
+		"health"	"160"
+		"0"	"weapon_pistol"
+		"1"	"weapon_smg1"
+		"2"	"weapon_shotgun"
+		"3"	"weapon_crowbar"
+		"4"	"weapon_frag"
+		"5"	"weapon_357"
+	}
+	"Police Lt. Colonel"
+	{
+		"model"	"models/humans/lieutenantcolonel/male_06.mdl"
+		"weapon_crowbar"	"1"
+		"suit"	"120"
+		"health"	"170"
+		"0"	"weapon_pistol"
+		"1"	"weapon_smg1"
+		"2"	"weapon_shotgun"
+		"3"	"weapon_crowbar"
+		"4"	"weapon_frag"
+		"5"	"weapon_357"
+	}
+	"Police Colonel"
+	{
+		"model"	"models/humans/colonel/male_02.mdl"
+		"suit"	"140"
+		"health"	"180"
+		"0"	"weapon_pistol"
+		"1"	"weapon_smg1"
+		"2"	"weapon_shotgun"
+		"3"	"weapon_frag"
+		"4"	"weapon_357"
+		"5"	"weapon_crowbar"
+	}
+	"Police Chief"
+	{
+		"model"	"models/humans/chief/male_06.mdl"
+		"suit"	"160"
+		"health"	"200"
+		"0"	"weapon_pistol"
+		"1"	"weapon_smg1"
+		"2"	"weapon_shotgun"
+		"3"	"weapon_frag"
+		"4"	"weapon_357"
+		"5"	"weapon_crowbar"
+	}
+	"Police Colonel (ClanOf)"
+	{
+		"model"	"models/humans/colonel/male_02.mdl"
+		"suit"	"200"
+		"health"	"250"
+		"0"	"weapon_smg1"
+		"1"	"weapon_shotgun"
+		"2"	"weapon_frag"
+		"3"	"weapon_357"
+		"4"	"weapon_crowbar"
+		"5"	"weapon_pistol"
+		"6"	"weapon_crossbow"
+	}
+	"Police Chief (Dennis)"
+	{
+		"model"	"models/humans/chief/male_06.mdl"
+		"suit"	"200"
+		"health"	"250"
+		"0"	"weapon_smg1"
+		"1"	"weapon_shotgun"
+		"2"	"weapon_frag"
+		"3"	"weapon_357"
+		"4"	"weapon_crowbar"
+		"5"	"weapon_pistol"
+		"6"	"weapon_crossbow"
+	}
+	"SWAT"
+	{
+		"model"	"models/combine_super_soldier.mdl"
+		"suit"	"240"
+		"health"	"240"
+		"0"	"weapon_smg1"
+		"1"	"weapon_shotgun"
+		"2"	"weapon_frag"
+		"3"	"weapon_357"
+		"4"	"weapon_crowbar"
+		"5"	"weapon_slam"
+		"6"	"weapon_crossbow"
+		"7"	"weapon_ar2"
+		"8"	"weapon_rpg"
+	}
+	"SWAT Leader"
+	{
+		"model"	"models/combine_super_soldier.mdl"
+		"suit"	"250"
+		"0"	"weapon_smg1"
+		"1"	"weapon_shotgun"
+		"2"	"weapon_frag"
+		"3"	"weapon_357"
+		"4"	"weapon_crowbar"
+		"5"	"weapon_slam"
+		"6"	"weapon_crossbow"
+		"7"	"weapon_ar2"
+		"8"	"weapon_rpg"
+		"9"	"weapon_pistol"
+	}
+	"General of the Army"
+	{
+		"suit"	"350"
+		"health"	"200"
+		"0"	"weapon_smg1"
+		"1"	"weapon_shotgun"
+		"2"	"weapon_frag"
+		"3"	"weapon_357"
+		"4"	"weapon_crowbar"
+		"5"	"weapon_slam"
+		"6"	"weapon_crossbow"
+		"7"	"weapon_ar2"
+		"8"	"weapon_rpg"
+		"9"	"weapon_stunstick"
+		"9"	"weapon_pistol"
+	}
+	"Admin"
+	{
+		"model"	"models/gman.mdl"
+		"suit"	"200"
+		"health"	"250"
+		"0"	"weapon_smg1"
+		"1"	"weapon_shotgun"
+		"2"	"weapon_frag"
+		"3"	"weapon_357"
+		"4"	"weapon_crowbar"
+		"5"	"weapon_slam"
+		"6"	"weapon_crossbow"
+		"7"	"weapon_ar2"
+		"8"	"weapon_rpg"
+		"9"	"weapon_stunstick"
+		"10"	"weapon_bugbait"
+		"11"	"weapon_pistol"
+	}
+	"Super Admin"
+	{
+		"model"	"models/gman.mdl"
+		"suit"	"250"
+		"health"	"350"
+		"0"	"weapon_smg1"
+		"1"	"weapon_shotgun"
+		"2"	"weapon_frag"
+		"3"	"weapon_357"
+		"4"	"weapon_crowbar"
+		"5"	"weapon_slam"
+		"6"	"weapon_crossbow"
+		"7"	"weapon_ar2"
+		"8"	"weapon_rpg"
+		"9"	"weapon_stunstick"
+		"10"	"weapon_bugbait"
+		"11"	"weapon_pistol"
+	}
+	"Root Admin"
+	{
+		"model"	"models/gman.mdl"
+		"suit"	"300"
+		"health"	"400"
+		"0"	"weapon_smg1"
+		"1"	"weapon_shotgun"
+		"2"	"weapon_frag"
+		"3"	"weapon_357"
+		"4"	"weapon_crowbar"
+		"5"	"weapon_slam"
+		"6"	"weapon_crossbow"
+		"7"	"weapon_ar2"
+		"8"	"weapon_rpg"
+		"9"	"weapon_stunstick"
+		"11"	"weapon_pistol"
+	}
+	"City Official"
+	{
+		"model"	"models/Breen.mdl"
+	}
+	"Server Official"
+	{
+		"model"	"models/Breen.mdl"
+	}
+	"Mayor"
+	{
+		"model"	"models/Breen.mdl"
+	}
+	"Trader"
+	{
+		"model"	"models/Barney.mdl"
+	}
+	"Bounty Hunter"
+	{
+		"model"	"models/Barney.mdl"
+		"0"	"weapon_crowbar"
+	}
+	"Bank Administrative Officer"
+	{
+		"model"	"models/gman.mdl"
+	}
+	"Drug Lord"
+	{
+		"model"	"models/monk.mdl"
+	}
+	"Meth technician"
+	{
+		"model"	"models/kleiner.mdl"
+	}
+	"Pill technician"
+	{
+		"model"	"models/kleiner.mdl"
+	}
+	"Crime Lord"
+	{
+		"model"	"models/monk.mdl"
+		"health"	"150"
+	}
+	"God Father"
+	{
+		"model"	"models/monk.mdl"
+		"health"	"200"
+	}
+	"Zombie"
+	{
+		"model"	"models/zombie/classic.mdl"
+		"health"	"300"
+	}
+}
