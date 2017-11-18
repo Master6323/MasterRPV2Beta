@@ -1,0 +1,567 @@
+"Games"
+{
+	"hl2mp"
+	{
+		"Offsets"
+		{
+			// void CHL2MP_Player::Spawn( Void )
+			"Spawn"
+			{
+				"windows"	"22"
+				"linux"		"23"
+				"mac"		"23"
+			}
+			// void CHL2MP_Player::PreThink( Void )
+			"PreThink"
+			{
+				"windows"	"332"
+				"linux"		"333"
+				"mac"		"333"
+			}
+			// void CHL2MP_Player::Think( Void )
+			"Think"
+			{
+				"windows"	"47"
+				"linux"		"48"
+				"mac"		"48"
+			}
+			// void CHL2MP_Player::PostThink( Void )
+			"PostThink"
+			{
+				"windows"	"333"
+				"linux"		"334"
+				"mac"		"334"
+			}
+			// void CHL2MP_Player::FireBullets ( const FireBulletsInfo_t &info )
+			"FireBullets"
+			{
+				"windows"	"112"
+				"linux"		"113"
+				"mac"		"113"
+			}
+			// void CHL2MP_Player::ChangeTeam( int )
+			"ChangeTeam"
+			{
+				"windows"	"91"
+				"linux"		"92"
+				"mac"		"92"
+			}
+			// void CHL2MP_Player::Event_Killed( const CTakeDamageInfo &info )
+			"EventKilled"
+			{
+				"windows"	"66"
+				"linux"		"67"
+				"mac"		"67"
+			}
+			// int CHL2MP_Player::OnTakeDamage( const CTakeDamageInfo &info )
+			"OnTakeDamage"
+			{
+				"windows"	"62"
+				"linux"		"63"
+				"mac"		"63"
+			}
+			// void CBasePlayer:GiveNamedItem( char const*, int )
+			"GiveNamedItem"
+			{
+				"windows"	"400"
+				"linux"		"401"
+				"mac"		"401"
+			}
+			// int CHL2_Player::GiveAmmo( int nCount, int nAmmoIndex, bool bSuppressSound )
+			"GiveAmmo"
+			{
+				"windows"	"252"
+				"linux"		"253"
+				"mac"		"253"
+			}
+			// void CBasePlayer::Weapon_Equip( CBaseCombatWeapon *pWeapon )
+			"WeaponEquip"
+			{
+				"windows"	"261"
+				"linux"		"262"
+				"mac"		"262"
+			}
+			// void CHL2MP_Player::Weapon_Equip( CBaseCombatWeapon*, vector const*, vector const* )
+			"WeaponDrop"
+			{
+				"windows"	"263"
+				"linux"		"264"
+				"mac"		"264"
+			}
+			// void CHL2MP_Player::DeathSound( const CTakeDamageInfo &info )
+			"DeathSound"
+			{
+				"windows"	"362"
+				"linux"		"363"
+				"mac"		"363"
+			}
+			// void CBaseEntity::StartTouch( CBaseEntity* )
+			"StartTouch"
+			{
+				"windows"	"98"
+				"linux"		"99"
+				"mac"		"99"
+			}
+			// void CBaseEntity::Touch( CBaseEntity* )
+			"Touch"
+			{
+				"windows"	"99"
+				"linux"		"100"
+				"mac"		"100"
+			}
+			// void CBaseEntity::EndTouch( CBaseEntity* )
+			"EndTouch"
+			{
+				"windows"	"100"
+				"linux"		"101"
+				"mac"		"101"
+			}
+			// bool CMultiplayRules::ClientConnected(edict_t * pEntity, char const*, char const*, int)
+			"ClientConnected"
+			{
+				"windows"	"59"
+				"linux"		"60"
+				"mac"		"60"
+			}
+			// void CHL2MPRules::ClientDisconnected(edict_t *pClient)
+			"ClientDisconnected"
+			{
+				"windows"	"61"
+				"linux"		"62"
+				"mac"		"62"
+			}
+			// void CBaseEntity::SetTransmit( CCheckTransmitInfo *pInfo, bool bAlways )
+			"SetTransmit"
+			{
+				"windows"	"20"
+				"linux"		"21"
+				"mac"		"21"
+			}
+			// void CBaseCharicter::ExitVehicle( void )
+			"ExitVehicle"
+			{
+				"windows"	"302"
+				"linux"		"303"
+				"mac"		"303"
+			}
+			// void CBasePlayer::LeaveVehicle( Vector const&, QAngle const& )
+			"LeaveVehicle"
+			{
+				"windows"	"393"
+				"linux"		"394"
+				"mac"		"394"
+			}
+			// bool CBasePlayer::GetInVehicle( IServerVehicle *pVehicle, int nRole )
+			"GetInVehicle"
+			{
+				"windows"	"392"
+				"linux"		"393"
+				"mac"		"393"
+			}
+			// bool CBasePlayer::SetObserverMode( int )
+			"SetObserverMode"
+			{
+				"windows"	"372"
+				"linux"		"373"
+				"mac"		"373"
+			}
+			// bool CBasePlayer::StartObserverMode( int )
+			"StartObserverMode"
+			{
+				"windows"	"369"
+				"linux"		"370"
+				"mac"		"370"
+			}
+			// void CHL2MP_Player::SetAnimation( PLAYER_ANIM playerAnim )
+			"SetAnimation"
+			{
+				"windows"	"365"
+				"linux"		"366"
+				"mac"		"366"
+			}
+			// void CBaseEntity::Respawn( void )
+			"Respawn"
+			{
+				"windows"	"115"
+				"linux"		"116"
+				"mac"		"116"
+			}
+		}
+	}
+	"css"
+	{
+		"Offsets"
+		{
+			// void CHL2MP_Player::Spawn( Void )
+			"Spawn"
+			{
+				"windows"	"22"
+				"linux"		"23"
+				"mac"		"23"
+			}
+			// void CHL2MP_Player::PreThink( Void )
+			"PreThink"
+			{
+				"windows"	"332"
+				"linux"		"333"
+				"mac"		"333"
+			}
+			// void CHL2MP_Player::Think( Void )
+			"Think"
+			{
+				"windows"	"47"
+				"linux"		"48"
+				"mac"		"48"
+			}
+			// void CHL2MP_Player::PostThink( Void )
+			"PostThink"
+			{
+				"windows"	"333"
+				"linux"		"334"
+				"mac"		"334"
+			}
+			// void CHL2MP_Player::FireBullets ( const FireBulletsInfo_t &info )
+			"FireBullets"
+			{
+				"windows"	"112"
+				"linux"		"113"
+				"mac"		"113"
+			}
+			// void CHL2MP_Player::ChangeTeam( int )
+			"ChangeTeam"
+			{
+				"windows"	"91"
+				"linux"		"92"
+				"mac"		"92"
+			}
+			// void CHL2MP_Player::Event_Killed( const CTakeDamageInfo &info )
+			"EventKilled"
+			{
+				"windows"	"66"
+				"linux"		"67"
+				"mac"		"67"
+			}
+			// int CHL2MP_Player::OnTakeDamage( const CTakeDamageInfo &info )
+			"OnTakeDamage"
+			{
+				"windows"	"62"
+				"linux"		"63"
+				"mac"		"63"
+			}
+			// void CBasePlayer:GiveNamedItem( char const*, int )
+			"GiveNamedItem"
+			{
+				"windows"	"401"
+				"linux"		"402"
+				"mac"		"402"
+			}
+			// int CHL2_Player::GiveAmmo( int nCount, int nAmmoIndex, bool bSuppressSound )
+			"GiveAmmo"
+			{
+				"windows"	"252"
+				"linux"		"253"
+				"mac"		"253"
+			}
+			// void CBasePlayer::Weapon_Equip( CBaseCombatWeapon *pWeapon )
+			"WeaponEquip"
+			{
+				"windows"	"261"
+				"linux"		"262"
+				"mac"		"262"
+			}
+			// void CHL2MP_Player::Weapon_Equip( CBaseCombatWeapon*, vector const*, vector const* )
+			"WeaponDrop"
+			{
+				"windows"	"263"
+				"linux"		"264"
+				"mac"		"264"
+			}
+			// void CHL2MP_Player::DeathSound( const CTakeDamageInfo &info )
+			"DeathSound"
+			{
+				"windows"	"363"
+				"linux"		"364"
+				"mac"		"364"
+			}
+			// void CBaseEntity::StartTouch( CBaseEntity* )
+			"StartTouch"
+			{
+				"windows"	"98"
+				"linux"		"99"
+				"mac"		"99"
+			}
+			// void CBaseEntity::Touch( CBaseEntity* )
+			"Touch"
+			{
+				"windows"	"99"
+				"linux"		"100"
+				"mac"		"100"
+			}
+			// void CBaseEntity::EndTouch( CBaseEntity* )
+			"EndTouch"
+			{
+				"windows"	"100"
+				"linux"		"101"
+				"mac"		"101"
+			}
+			// bool CMultiplayRules::ClientConnected(edict_t * pEntity, char const*, char const*, int)
+			"ClientConnected"
+			{
+				"windows"	"59"
+				"linux"		"60"
+				"mac"		"60"
+			}
+			// void CHL2MPRules::ClientDisconnected(edict_t *pClient)
+			"ClientDisconnected"
+			{
+				"windows"	"61"
+				"linux"		"62"
+				"mac"		"62"
+			}
+			// void CBaseEntity::SetTransmit( CCheckTransmitInfo *pInfo, bool bAlways )
+			"SetTransmit"
+			{
+				"windows"	"20"
+				"linux"		"21"
+				"mac"		"21"
+			}
+			// void CBaseCharicter::ExitVehicle( void )
+			"ExitVehicle"
+			{
+				"windows"	"302"
+				"linux"		"303"
+				"mac"		"303"
+			}
+			// void CBasePlayer::LeaveVehicle( Vector const&, QAngle const& )
+			"LeaveVehicle"
+			{
+				"windows"	"394"
+				"linux"		"395"
+				"mac"		"395"
+			}
+			// bool CBasePlayer::GetInVehicle( IServerVehicle *pVehicle, int nRole )
+			"GetInVehicle"
+			{
+				"windows"	"393"
+				"linux"		"394"
+				"mac"		"394"
+			}
+			// bool CBasePlayer::SetObserverMode( int )
+			"SetObserverMode"
+			{
+				"windows"	"373"
+				"linux"		"374"
+				"mac"		"374"
+			}
+			// bool CBasePlayer::StartObserverMode( int )
+			"StartObserverMode"
+			{
+				"windows"	"370"
+				"linux"		"371"
+				"mac"		"371"
+			}
+			// void CHL2MP_Player::SetAnimation( PLAYER_ANIM playerAnim )
+			"SetAnimation"
+			{
+				"windows"	"366"
+				"linux"		"367"
+				"mac"		"367"
+			}
+			// void CBaseEntity::Respawn( void )
+			"Respawn"
+			{
+				"windows"	"115"
+				"linux"		"116"
+				"mac"		"116"
+			}
+		}
+	}
+	"csgo"
+	{
+		"Offsets"
+		{
+			// void CHL2MP_Player::Spawn( Void )
+			"Spawn"
+			{
+				"windows"	"22"
+				"linux"		"23"
+				"mac"		"23"
+			}
+			// void CHL2MP_Player::PreThink( Void )
+			"PreThink"
+			{
+				"windows"	"332"
+				"linux"		"333"
+				"mac"		"333"
+			}
+			// void CHL2MP_Player::Think( Void )
+			"Think"
+			{
+				"windows"	"47"
+				"linux"		"48"
+				"mac"		"48"
+			}
+			// void CHL2MP_Player::PostThink( Void )
+			"PostThink"
+			{
+				"windows"	"333"
+				"linux"		"334"
+				"mac"		"334"
+			}
+			// void CHL2MP_Player::FireBullets ( const FireBulletsInfo_t &info )
+			"FireBullets"
+			{
+				"windows"	"112"
+				"linux"		"113"
+				"mac"		"113"
+			}
+			// void CHL2MP_Player::ChangeTeam( int )
+			"ChangeTeam"
+			{
+				"windows"	"91"
+				"linux"		"92"
+				"mac"		"92"
+			}
+			// void CHL2MP_Player::Event_Killed( const CTakeDamageInfo &info )
+			"EventKilled"
+			{
+				"windows"	"66"
+				"linux"		"67"
+				"mac"		"67"
+			}
+			// int CHL2MP_Player::OnTakeDamage( const CTakeDamageInfo &info )
+			"OnTakeDamage"
+			{
+				"windows"	"62"
+				"linux"		"63"
+				"mac"		"63"
+			}
+			// void CBasePlayer:GiveNamedItem( char const*, int )
+			"GiveNamedItem"
+			{
+				"windows"	"400"
+				"linux"		"401"
+				"mac"		"401"
+			}
+			// int CHL2_Player::GiveAmmo( int nCount, int nAmmoIndex, bool bSuppressSound )
+			"GiveAmmo"
+			{
+				"windows"	"252"
+				"linux"		"253"
+				"mac"		"253"
+			}
+			// void CBasePlayer::Weapon_Equip( CBaseCombatWeapon *pWeapon )
+			"WeaponEquip"
+			{
+				"windows"	"261"
+				"linux"		"262"
+				"mac"		"262"
+			}
+			// void CHL2MP_Player::Weapon_Equip( CBaseCombatWeapon*, vector const*, vector const* )
+			"WeaponDrop"
+			{
+				"windows"	"263"
+				"linux"		"264"
+				"mac"		"264"
+			}
+			// void CHL2MP_Player::DeathSound( const CTakeDamageInfo &info )
+			"DeathSound"
+			{
+				"windows"	"362"
+				"linux"		"363"
+				"mac"		"363"
+			}
+			// void CBaseEntity::StartTouch( CBaseEntity* )
+			"StartTouch"
+			{
+				"windows"	"98"
+				"linux"		"99"
+				"mac"		"99"
+			}
+			// void CBaseEntity::Touch( CBaseEntity* )
+			"Touch"
+			{
+				"windows"	"99"
+				"linux"		"100"
+				"mac"		"100"
+			}
+			// void CBaseEntity::EndTouch( CBaseEntity* )
+			"EndTouch"
+			{
+				"windows"	"100"
+				"linux"		"101"
+				"mac"		"101"
+			}
+			// bool CMultiplayRules::ClientConnected(edict_t * pEntity, char const*, char const*, int)
+			"ClientConnected"
+			{
+				"windows"	"59"
+				"linux"		"60"
+				"mac"		"60"
+			}
+			// void CHL2MPRules::ClientDisconnected(edict_t *pClient)
+			"ClientDisconnected"
+			{
+				"windows"	"61"
+				"linux"		"62"
+				"mac"		"62"
+			}
+			// void CBaseEntity::SetTransmit( CCheckTransmitInfo *pInfo, bool bAlways )
+			"SetTransmit"
+			{
+				"windows"	"20"
+				"linux"		"21"
+				"mac"		"21"
+			}
+			// void CBaseCharicter::ExitVehicle( void )
+			"ExitVehicle"
+			{
+				"windows"	"302"
+				"linux"		"303"
+				"mac"		"303"
+			}
+			// void CBasePlayer::LeaveVehicle( Vector const&, QAngle const& )
+			"LeaveVehicle"
+			{
+				"windows"	"393"
+				"linux"		"394
+				"mac"		"394
+			}
+			// bool CBasePlayer::GetInVehicle( IServerVehicle *pVehicle, int nRole )
+			"GetInVehicle"
+			{
+				"windows"	"392"
+				"linux"		"393"
+				"mac"		"393"
+			}
+			// bool CBasePlayer::SetObserverMode( int )
+			"SetObserverMode"
+			{
+				"windows"	"372"
+				"linux"		"373"
+				"mac"		"373"
+			}
+			// bool CBasePlayer::StartObserverMode( int )
+			"StartObserverMode"
+			{
+				"windows"	"369"
+				"linux"		"370"
+				"mac"		"370"
+			}
+			// void CHL2MP_Player::SetAnimation( PLAYER_ANIM playerAnim )
+			"SetAnimation"
+			{
+				"windows"	"365"
+				"linux"		"366"
+				"mac"		"366"
+			}
+			// void CBaseEntity::Respawn( void )
+			"Respawn"
+			{
+				"windows"	"115"
+				"linux"		"116"
+				"mac"		"116"
+			}
+		}
+	}
+}
